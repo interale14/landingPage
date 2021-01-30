@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/index.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Quicksand:wght@300&display=swap" rel="stylesheet"> 
+    
+        <title>Landing Page</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-light bg-white border-bottom border-light border-2">
+            <div class="container-fluid d-flex justify-content-between">
+                <a class="navbar-brand" href="#">
+                    <img src="/imgs/logo.png" alt="Logo de Asus"/>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Desplegar Menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-md-flex justify-content-md-end " id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link nava" aria-current="page" href="#desc">Descripción</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nava" href="#caracteristicas">Características</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#opiniones">Opiniones</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div class="cont d-flex align-items-center justify-content-center flex-column">
+                <div class="herotext d-flex align-items-center justify-content-center flex-column">
+                    <p class="h">Asus <b>Vivobook 15</b></p>
+                    <p>Mayor potencia, menor peso</p>
+                </div>
+                <img class="imgPrin" alt="Imagen Principal" src="imgs/img11.jpg" />
+            </div>
+            <br/>
+        </header>
+        <main>
+            <div class="mx-5 mx-lg-auto my-0 d-flex col-lg-9">
+                <p id="desc" class="txtintro fs-lg-4 fs-sm-6 fs-md-2">Ya sea en el trabajo o jugando, ASUS VivoBook 15 es una laptop compacta que te sumerge en tus contenidos favoritos. Su nueva pantalla NanoEdge de cuatro lados sin marco cuentan con un bisel ultradelgado de 5.7 mm, que ofrece una asombrosa relación de pantalla a cuerpo del 88% para imágenes sumamente inmersivas. El nuevo diseño de bisagra ErgoLift también inclina el teclado hacia arriba para una escritura más cómoda. VivoBook 15 funciona con hasta el último procesador Intel® Core™ i5 con hasta gráficos discretos Nvidia® GeForce® MX130 y unidades de almacenamiento duales para ayudarte a hacer tareas sin complicaciones. Además, está disponible en un acabado que combina con tu estilo.</p>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center p-3">
+                <form id="form1" action="" method="post" class="col-md-6 pb-5 d-flex flex-row justify-content-lg-between align-items-lg-center">
+                    <input class="form-control" type="email" name="txtEmail" id="txtEmail" placeholder="Correo Electrónico" />
+                    <button class="btn btn-primary btn-md ms-2" id="btnForm1">Ordena ya</button>
+                </form>
+            </div>
+            <div id="caracteristicas" class="row mt-5 d-flex justify-content-center">
+                <h2 class="col-md-6 text-center subt">Características</h2>
+            </div>
+            <div class="m-auto d-flex flex-wrap align-items-center justify-content-center">
+                <div class="col-9 col-lg-3 col-md-4 m-3">
+                    <div class="card">
+                        <img class="card-top-img" alt="Pantalla NanoEdge" src="imgs/img10.jpg" />
+                        <div class="card-body">
+                            <div class="card-title">Pantalla NanoEdge</div>
+                            <p>La nueva pantalla NanoEdge extiende la experiencia visual hasta los bordes y aumenta la sensasión de inmersión al trabajar y jugar.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 col-lg-3 col-md-4 m-3">
+                    <div class="card">
+                        <img class="card-top-img" alt="Dimensiones Compactas" src="imgs/img3.jpg" />
+                        <div class="card-body">
+                            <div class="card-title">Dimensiones Compactas</div>
+                            <p>Los cuatro marcos ultrafinos de la nueva pantalla NanoEdge permiten reducir considerablemente las dimensiones de la nueva VivoBook 15 con respecto al modelo anterior. Ocupa menos en la mesa y te deja más espacio para ti. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 col-lg-3 col-md-4 m-3">
+                    <div class="card">
+                        <img class="card-top-img" alt="Ligera" src="imgs/img4.jpg" />
+                        <div class="card-body">
+                            <div class="card-title">Ligera</div>
+                            <p>Gracias a su tamaño compacto y ligero, puedes llevar la Vivobook 15 a cualquier lugar sin que represente una carga.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 col-lg-3 col-md-4 m-3">
+                    <div class="card">
+                        <img class="card-top-img" alt="ErgoLift" src="imgs/img6.jpg" />
+                        <div class="card-body">
+                            <div class="card-title">ErgoLift</div>
+                            <p>Su bisagra ErgoLift cuenta con mecanismo de precisión que permite acomodar la pantalla en el ángulo deseado y eleva el teclado dos grados para que escribas en la posición más cómoda posible.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 col-lg-3 col-md-4 m-3">
+                    <div class="card">
+                        <img class="card-top-img" alt="Diseño" src="imgs/img1.jpg" />
+                        <div class="card-body">
+                            <div class="card-title">Diseño</div>
+                            <p>VivoBook 15 está disponible en acabados que se ajustan a diferentes personalidades y estilos. El acabado Transparent Silver es un color clásico y sofisticado; la opción Slate Gray ofrece un look más sobrio; el Peacock Blue presenta un efecto iridiscente que cambia de tono según el ángulo en que incide la luz, y el Coral Crush es el protagonista de todas las miradas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 col-lg-3 col-md-4 m-3">
+                    <div class="card">
+                        <img class="card-top-img" alt="Desempeño" src="imgs/img7.jpg" />
+                        <div class="card-body">
+                            <div class="card-title">Desempeño</div>
+                            <p>VivoBook 15 te brinda las herramientas necesarias para abrirte camino a cada paso. Equipada con la última generación de procesadores Intel® Core™ puedes afrontar todo lo que venga, ya sea productividad multitarea, edición de contenidos multimedia o juegos ligeros.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 col-lg-3 col-md-4 m-3">
+                    <div class="card">
+                        <img class="card-top-img" alt="Conectividad" src="imgs/img9.jpg" />
+                        <div class="card-body">
+                            <div class="card-title">Conectividad</div>
+                            <p>VivoBook 15 está equipada con un puerto USB de tipo C (USB-C™ (USB-C™) reversible que, aparte de ser diez veces más rápido10 que la especificación USB 2.0, se puede conectar en ambos sentidos. También tiene puertos USB 3.1 Gen. 1 y USB 2.0, salida HDMI y un lector de tarjetas micro-SD para conectar sin ningún tipo de problema todos los periféricos, pantallas y proyectores que quieras.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 col-lg-3 col-md-4 m-3">
+                    <div class="card">
+                        <img class="card-top-img" alt="Batería" src="imgs/img5.jpg" />
+                        <div class="card-body">
+                            <div class="card-title">Batería</div>
+                            <p>Equipada con una batería de polímero de litio de alta calidad, VivoBook 15 te permite ser productivo durante todo el día. La tecnología ASUS Battery Health Charging prolonga la vida útil de la batería, evita que se sobrecargue, reduce las posibilidades de que pueda hincharse y mantiene su capacidad intacta durante un periodo de tiempo más largo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 col-lg-3 col-md-4 m-3">
+                    <div class="card">
+                        <img class="card-top-img" alt="Audio" src="imgs/img2.jpg" />
+                        <div class="card-body">
+                            <div class="card-title">Audio</div>
+                            <p>ASUS SonicMaster es una combinación de hardware, software y ajuste de audio diseñado con el objetivo de brindarle la mejor experiencia de audio. Un códec de nivel profesional garantiza una codificación y decodificación de audio precisas; mientras que los amplificadores, los altavoces grandes y las cámaras de resonancia perfectamente adaptadas a VivoBook 15 garantizan una entrega de audio potente y unos graves más profundos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center p-3">
+                <form id="form1" action="" method="post" class="col-md-6 pb-5 d-flex flex-row justify-content-lg-between align-items-lg-center">
+                    <input class="form-control" type="email" name="txtEmail" id="txtEmail" placeholder="Correo Electrónico" />
+                    <button class="btn btn-primary btn-md ms-2" id="btnForm1">Ordena ya</button>
+                </form>
+            </div>
+            <div id="opiniones" class="row mt-5 d-flex justify-content-center">
+                <h2 class="col-md-6 text-center subt">Opiniones</h2>
+            </div>
+            <div class="m-auto d-flex flex-wrap align-items-center justify-content-center">
+                <div class="col-9 col-lg-3 col-md-4 m-3 d-flex flex-column align-items-center">
+                    <img alt="avatar1" src="/imgs/avatar1.jpg" class="avatar"/>
+                    <p>"Tiene todo lo que necesito y más."</p>
+                </div>
+                <div class="col-9 col-lg-3 col-md-4 m-3 d-flex flex-column align-items-center">
+                    <img alt="avatar1" src="/imgs/avatar2.jpg" class="avatar"/>
+                    <p>"Quedé impresionada con el rendimiento y la duración de la bateria."</p>
+                </div>
+                <div class="col-9 col-lg-3 col-md-4 m-3 d-flex flex-column align-items-center">
+                    <img alt="avatar1" src="/imgs/avatar3.jpg" class="avatar"/>
+                    <p>"Me fascinó el diseño, sus marcos ultra delgados son súper."</p>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center p-3">
+                <form id="form1" action="" method="post" class="col-md-6 pb-5 d-flex flex-row justify-content-lg-between align-items-lg-center">
+                    <input class="form-control" type="email" name="txtEmail" id="txtEmail" placeholder="Correo Electrónico" />
+                    <button class="btn btn-primary btn-md ms-2" id="btnForm1">Ordena ya</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <footer class="container-fluid bg-dark text-white text-center p-3">
+                <p>Wilsson A. Interiano &copy; 2021 Desarrollo de Portales Web 2</p>
+            </footer>
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW " crossorigin="anonymous "></script>
+    </body>
+</html>

@@ -1,0 +1,199 @@
+.nav-link {
+    font-size: larger;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.herotext p.h {
+    background: url(https://media.giphy.com/media/l3vQX3n7rkK7Dpg64/giphy.gif);
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2em;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-top: 1rem;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.herotext p.h b {
+    font-weight: 1000;
+}
+
+.herotext p {
+    font-size: 1em;
+    color: #1E1E1E;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.imgPrin {
+    height: 25vh;
+    width: 85vw;
+}
+   
+div form .btn {
+    width: 9em;
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+main div .txtintro {
+    text-align: center;
+}
+
+.subt {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+
+.card {
+    height: 65vh;
+}
+
+.card-title {
+    font-size: 1.3em;
+}
+
+.avatar {
+    height: 140px;
+    width: 140px;
+}
+
+@media (min-width: 768px) {
+    .nava:after {
+        content: " /";
+        margin-left: 15px;
+        color: #000;
+    }
+
+    .imgPrin {
+        height: 40vh;
+        width: 85vw;
+    }
+
+    .herotext p.h {
+        font-size: 4em;
+        margin-top: 2rem;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        margin-top: 2rem;
+    }
+
+    .herotext p {
+        font-size: 3em;
+    }
+
+    .card {
+        height: 60vh;
+    }
+
+    .subt {
+        font-size: 2.2em;
+    }
+
+    .avatar {
+        height: 180px;
+        width: 180px;
+    }
+  }
+
+@media (min-width: 992px) {
+    .nava:after {
+        content: " /";
+        margin-left: 15px;
+        color: #000;
+    }
+
+    .imgPrin {
+        height: 90vh;
+        width: 85vw;
+    }
+
+    .herotext p.h {
+        font-size: 6em;
+        margin-top: 2rem;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        margin-top: 2rem;
+    }
+
+    .herotext p {
+        font-size: 4em;
+    }
+
+    .avatar {
+        height: 230px;
+        width: 230px;
+    }
+
+    div form .btn {
+        padding-top: 0.4em;
+        padding-bottom: 0.4em;
+        width: 300px;
+        background-color: #000;
+        border-color: #000;
+        cursor: pointer;
+        text-decoration: none;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    div form .btn:hover{
+        color: #000000;
+        background-color: #000;
+        border-color: #000;
+    }
+      
+    div form .btn:hover:before, div form .btn:focus:before, div form .btn:active:before {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+        -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+        transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    }
+    
+    div form .btn:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #fff;
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0);
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+        -webkit-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+    }
+      
+    div form .btn {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px transparent;
+        position: relative;
+        -webkit-transition-property: color;
+        transition-property: color;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+    }
+
+    .card {
+        height: 73vh;
+    }
+  }
